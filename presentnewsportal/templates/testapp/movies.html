@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{%load static%}
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{%static "css/news.css"%}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <a class="btn btn-primary btn-lg" href="/home" role="button">home page</a>
+    </head>
+
+    <body>
+       <h1>Current Movies News</h1>
+
+       <hr>
+        <ul>
+          <li>{{n1}}</li>
+          <li>{{n2}}</li>
+          <li>{{n3}}</li>
+          <li>{{n4}}</li>
+        </ul>
+        <img src="{%static "image/f1.PNG"%}" alt="">
+        <img src="{%static "image/f2.PNG"%}" alt="">
+        <img src="{%static "image/f3.PNG"%}" alt="">
+        <img src="{%static "image/f4.PNG"%}" alt="">
+
+        <script src="" async defer></script>
+    </body>
+</html>
